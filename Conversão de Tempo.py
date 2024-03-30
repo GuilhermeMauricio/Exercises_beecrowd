@@ -1,0 +1,5 @@
+n=int(input(''))
+segundo=int(n%60)
+minuto=int(n/60)
+horas=int(minuto/60)
+print(f'{horas}:{minuto}:{segundo}')
