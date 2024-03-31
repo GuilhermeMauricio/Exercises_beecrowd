@@ -1,8 +1,14 @@
-a, b, c = input(). split(" ")
+a, b, c = int(input()). split(" ")
 
+
+
+"""""
 a = int(a)
 b = int(b)
 c = int(c)
+"""""
+
+
 
 MaiorAB= (a+b+abs(a-b))/2 
 MaiorC= (MaiorAB + c+ abs(MaiorAB - c))/2
