@@ -1,0 +1,10 @@
+n1, n2 , n3 = input(" "). split()
+n1=int(n1)
+n2=int(n2)
+n3=int(n3)
+lista=[]
+numeros=lista.append(n1)
+numeros=lista.append(n2)
+numeros=lista.append(n3)
+print(lista.sort())
+print(lista)
